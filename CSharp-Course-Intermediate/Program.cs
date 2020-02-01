@@ -7,20 +7,9 @@ namespace CSharp_Course_Intermediate
     {
         static void Main(string[] args)
         {
-            var post = new Post
-            {
-                Title = "new post1",
-                Description = "hiiiiiiiiiiiiiii",
-                Date = DateTime.Now
-            };
-            int votes;
-            post.UpVote();
-           post.UpVote();
-            post.UpVote();
-            post.UpVote();
-            
-            votes = post.DownVote();
-            Console.WriteLine(votes);
+            SQLConnection sql = new SQLConnection("connectstring");
+            Dbcommand command = new Dbcommand(sql, "my command");
+            command.Execute();
         }
 
     }

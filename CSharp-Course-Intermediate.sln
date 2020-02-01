@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-Course-Intermediate", "CSharp-Course-Intermediate\CSharp-Course-Intermediate.csproj", "{9267E74C-E7BB-4832-A15C-686533A24AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp-Course-Intermediate", "CSharp-Course-Intermediate\CSharp-Course-Intermediate.csproj", "{9267E74C-E7BB-4832-A15C-686533A24AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverriding", "MethodOverriding\MethodOverriding.csproj", "{D5607E63-6495-4A2C-9E27-936B14F3A347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9267E74C-E7BB-4832-A15C-686533A24AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9267E74C-E7BB-4832-A15C-686533A24AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9267E74C-E7BB-4832-A15C-686533A24AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5607E63-6495-4A2C-9E27-936B14F3A347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5607E63-6495-4A2C-9E27-936B14F3A347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5607E63-6495-4A2C-9E27-936B14F3A347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5607E63-6495-4A2C-9E27-936B14F3A347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
