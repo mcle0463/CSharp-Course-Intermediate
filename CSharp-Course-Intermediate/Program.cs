@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Diagnostics;
 using System.Runtime.CompilerServices;
 
 namespace CSharp_Course_Intermediate
@@ -7,9 +7,12 @@ namespace CSharp_Course_Intermediate
     {
         static void Main(string[] args)
         {
-            SQLConnection sql = new SQLConnection("connectstring");
-            Dbcommand command = new Dbcommand(sql, "my command");
-            command.Execute();
+            WorkFlow workFlow = new WorkFlow();
+            workFlow.AddActivity(new EmailNotify());
+            workFlow.AddActivity(new ProcessVideo());
+            workFlow.AddActivity(new EncodeVideo());
+            workFlow.AddActivity(new VideoUpload());
+            WorkFlowEngine.Run(workFlow);
         }
 
     }

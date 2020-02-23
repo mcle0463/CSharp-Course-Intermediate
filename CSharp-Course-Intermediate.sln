@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testability", "Testability\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.UnitTests", "UnitTestProject1\Testability.UnitTests.csproj", "{1E5D39F7-78B5-48B6-876E-B64C28B29549}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensibility", "Extensibility\Extensibility.csproj", "{6F0666ED-E517-4B7A-BBDE-C26B58715EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance-vs-Interfaces", "Inheritance-vs-Interfaces\Inheritance-vs-Interfaces.csproj", "{CD8BC72E-9DCE-479F-800C-0B4F4F1FD721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{1E5D39F7-78B5-48B6-876E-B64C28B29549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E5D39F7-78B5-48B6-876E-B64C28B29549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E5D39F7-78B5-48B6-876E-B64C28B29549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F0666ED-E517-4B7A-BBDE-C26B58715EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F0666ED-E517-4B7A-BBDE-C26B58715EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F0666ED-E517-4B7A-BBDE-C26B58715EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F0666ED-E517-4B7A-BBDE-C26B58715EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8BC72E-9DCE-479F-800C-0B4F4F1FD721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8BC72E-9DCE-479F-800C-0B4F4F1FD721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8BC72E-9DCE-479F-800C-0B4F4F1FD721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8BC72E-9DCE-479F-800C-0B4F4F1FD721}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
